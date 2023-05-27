@@ -15,7 +15,7 @@ const Blog = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const res = await fetch("https://blog-server-iwu1.onrender.com/blogs", {
+        const res = await fetch("https://blog-server-mu5e.onrender.com/blogs", {
           method: "GET",
           headers: {
             'Access-Control-Allow-Origin': '*'
@@ -52,7 +52,7 @@ const Blog = () => {
   useEffect(() => {
     const fetchComments = async () => {
       try {
-        const res = await fetch(`https://blog-server-iwu1.onrender.com/comments`, {
+        const res = await fetch(`https://blog-server-mu5e.onrender.com/comments`, {
           method: "POST",
           headers: {
             'Access-Control-Allow-Origin': '*',
@@ -82,7 +82,7 @@ const Blog = () => {
   const handleComment = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('https://blog-server-iwu1.onrender.com/comment', {
+      const res = await fetch('https://blog-server-mu5e.onrender.com/comment', {
         method: 'POST',
         headers: {
           'Access-Control-Allow-Origin': '*',
