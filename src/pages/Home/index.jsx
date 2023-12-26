@@ -8,7 +8,7 @@ const Home = () => {
 
   useEffect(()=>{
     const fetchBlogs = async() =>{
-      let res = await fetch("https://blog-server-mu5e.onrender.com/blogs",{
+      let res = await fetch("https://blog-server-tvke.onrender.com/blogs",{
         method:"GET",
         headers:{
           'Access-Control-Allow-Origin':'*'
